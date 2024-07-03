@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-family: "New Hero", sans-serif;
+}
+
+.container-head {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    /* flex-grow: 0; */
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 0px 300px;
+    padding-bottom: 60px;
+    gap: 60px;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-shrink: 0;
+}
+
+/* .title{
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+} */
+
+.large-text {
+    font-size: 48px;
+    font-weight: 800;
+    flex: 1;
+    max-width: 450px;
+}
+
+.subtext{
+    font-size: 16px;
+    color: black;
+    max-width: 450px;
+}
+
+.h-btn {
+    margin-top: 10px;
+    background-color: #3882f6;
+    border-radius: 3px;
+    border-style: none;
+    font-size: 18px;
+    padding: 8px;
+    color: antiquewhite;
+}
+
+.image-box {
+    display: flex;
+    width: auto;
+    min-width: 500px;
+    height: 200px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.head-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.subtext-head{
+    font-family: 'Hero New', sans-serif;
+    color: antiquewhite;
+    max-width: 450px;
+}
+
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0px 300px;
+}
+
+.first-text {
+    text-align: center;
+    font-family: 'Hero New', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 32px;
+}
+
+.subtext{
+    font-family: 'Hero New', sans-serif;
+    color: black;
+    padding-top: 8px;
+}
+
+.mini-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.small-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    width: 200px;
+}
+
+.small-img{
+    border: #3882f6 solid 3px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    align-content: center;
+}
+
+.quote-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 100px 390px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-family: "Roboto";
+    font-weight: 10;
+}
+
+.author{
+    align-self: flex-end;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.footer-content{
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 100px 300px;
+    /* background-color: #3882f6; */
+    /* border: white solid 100px; */
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-text {
+    font-size: 25px;
+    font-weight: 500;
+    color: whitesmoke;
+    font-family: roboto;
+}
+
+.foot-subtext {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: roboto;
+    color: whitesmoke;
+}
+
+
+.f-btn {
+    /* display: flex; */
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px 30px;
+    margin: 16px 0px;
+    border: white solid 2px;
+    color: white;
+    background-color: #3882f6;
+    font-family: 'New Hero';
+    font-weight: 600;
+
+}
+
+.copyright {
+    text-align: center;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+}
